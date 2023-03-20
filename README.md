@@ -24,8 +24,8 @@ To use this application in your LiveChat dashboard, you'll need to create your o
 
 1. Go to [Apps](https://developers.livechatinc.com/console/apps) in [Developers Console](https://developers.livechatinc.com/console).
 2. Click **New App** and give it an **App Name**.
-3. Select _Agent App Widget_ as the **App Template**.
-4. Go to **Develop -> Building Blocks**.
+3. Choose the **LiveChat** product as the product you want to build for.
+4. Go to **Building Blocks**.
 5. Add **App Authorization** and mark it as _JavaScript App_. Your **Client Id** will be displayed there.
 6. Add `reports_read` scope to the **App scopes and API access** box.
 7. Fetch the **Progress** app repository.
@@ -46,21 +46,29 @@ You should now be able to use **Progress** with LiveChat.
 
 # How it works
 
-[Agent App Widgets](https://docs.livechatinc.com/agent-app-widgets/) are web applications loaded inside the LiveChat Agent App. All agents can interact with the widget during chats with customers. The widget itself is displayed in the Agent’s App right sidebar.
+[Agent App Widgets](https://developers.livechat.com/docs/extending-agent-app) are web applications loaded inside the LiveChat Agent App. All agents can interact with the widget during chats with customers. The widget itself is displayed in the Agent’s App right sidebar.
 
 To get information such as **chat ratings** and **chat response time**, you need to use [Reports API](https://developers.livechat.com/docs/data-reporting/reports-api).
 
-In order to pull data from our server, Rest API requires you to include an **access_token** in all the requests. You can get it using [Personal Access Tokens](https://developers.livechat.com/docs/authorization/agent-authorization#personal-access-tokens) and [JavaScript Widget API](https://docs.livechatinc.com/agent-app-widgets/#javascript-api).
+In order to pull data from our server, you need to include an **access_token** in all the requests. You can get it using [Personal Access Tokens](https://developers.livechat.com/docs/authorization/agent-authorization#personal-access-tokens) and [JavaScript Widget API](https://docs.livechatinc.com/agent-app-widgets/#javascript-api).
 
 You should also get familiar with [Authorization](https://docs.livechatinc.com/authorization/).
 
+# More sample apps
+
+Experiment more with our different sample apps:
+ - [Tag Master](https://github.com/livechat/tag-master) - widget for helping your agents manage tags and canned responses.
+ - [Supervisor](https://github.com/livechat/supervisor-app) - widget for helping you monitor weekly progress of your agents and also their availability.
+ - [Sample auth app with the redirect flow](https://github.com/livechat/sample-app-redirect-auth)
+ - [Sample auth app with the popup flow](https://github.com/livechat/sample-app-popup-auth)
+
 # Feedback
 
-If you find some bugs, please create an issue in this repo. We will try to fix is ASAP ;)
+If you find some bugs, please create an issue in this repo. We will try to fix it ASAP ;)
 
 # If you're new to LiveChat
 
-**LiveChat** is an online customer service software with live support, help desk software, and web analytics capabilities. It's used by more than 36,000 companies all over the world. For more info, check out [LiveChat for Developers](https://developers.livechatinc.com/).
+**LiveChat** is an online customer service software with live support, help desk software, and web analytics capabilities. It's used by more than 37,000 companies all over the world. Read more about [LiveChat for Developers](https://developers.livechatinc.com/) and [join our Discord](https://discord.com/invite/NcfJu3a9kM) to learn, get inspired, and meet other developers.
 
 ---
 
