@@ -59,8 +59,8 @@ You should also get familiar with [Authorization](https://docs.livechatinc.com/a
 Experiment more with our different sample apps:
  - [Tag Master](https://github.com/livechat/tag-master) - widget for helping your agents manage tags and canned responses.
  - [Supervisor](https://github.com/livechat/supervisor-app) - widget for helping you monitor weekly progress of your agents and also their availability.
- - [Sample auth app with the redirect flow](https://github.com/livechat/sample-app-redirect-auth)
- - [Sample auth app with the popup flow](https://github.com/livechat/sample-app-popup-auth)
+ - [Sample Redirect App with the redirect authorization flow](https://github.com/livechat/sample-app-redirect-auth)
+ - [Sample Popup App with the popup authorization flow](https://github.com/livechat/sample-app-popup-auth)
 
 # Feedback
 
