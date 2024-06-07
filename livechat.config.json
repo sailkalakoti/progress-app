@@ -1,3 +1,22 @@
 {
-    "id": "UuzxZ1yIg"
+    "id": "UuzxZ1yIg",
+    "name": "Chat-app",
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "8d049762e8a0aa08ead6ca7502d4a5b9",
+            "type": "javascript_app",
+            "redirectUri": "http://localhost"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "sailkalakoti/progress-app",
+            "branch": "master"
+        },
+        "storage": {
+            "provider": "neon",
+            "databaseName": "progress-app",
+            "isSeeded": false
+        }
+    }
 }
